@@ -1,0 +1,47 @@
+body{
+    background-color:#3F2E3E ;
+}
+.one{
+    background-color: #FFEADD;
+    width: 40%;
+    padding: 35px;
+    margin: 100px auto 100px;
+    border-radius: 25px;
+}
+.q{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+}
+
+.btn{
+    background-color:white;
+    width:90%;
+    font-weight: 100px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover:not([disabled]){
+    background-color: #40128B;
+    color: white;
+}
+
+.nextbtn{
+    text-align: center;
+}
+#next{
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: 170px;
+    padding: 10px;
+    /* text-align: center; */
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
